@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	  <RelativeLayout 
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:id="@+id/locationmsg"
+	      android:background="@drawable/lantianbaiyun"
+		  android:padding="10dp">
+	      <TextView 
+		    android:id="@+id/sure_num_satellite" 
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="已发现卫星:-1"
+	        />
+	      <ImageView 
+	          android:id="@+id/connection_d"
+	          android:layout_height="wrap_content"
+	          android:layout_width="wrap_content"
+	          android:src="@drawable/connection1_128"
+	          android:layout_below="@+id/sure_num_satellite"
+	          />
+	      <ImageView 
+	          android:id="@+id/connection"
+	          android:layout_height="wrap_content"
+	          android:layout_width="wrap_content"
+	          android:src="@drawable/xian_128"
+	          android:layout_below="@+id/sure_num_satellite"
+	          />
+	      
+		  <LinearLayout 
+	          android:id="@+id/msg"
+		      android:layout_width="wrap_content"
+    		  android:layout_height="wrap_content"
+    		  android:orientation="vertical"
+	          android:layout_below="@+id/sure_num_satellite"
+	          android:layout_toRightOf="@+id/connection">
+			  <TextView 
+			    android:id="@+id/latitude" 
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="纬度:4.9E-324"
+		        />
+			  <TextView 
+			    android:id="@+id/longitude" 
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="经度:4.9E-324"
+		        android:layout_below="@+id/latitude"
+		        />
+			  <TextView 
+			    android:id="@+id/height" 
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="海拔:4.9E-324"
+		        android:layout_below="@+id/longitude"
+		        />
+			  <TextView 
+			    android:id="@+id/precision" 
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="精度:0.0"
+		        android:layout_below="@+id/height"
+		        />
+			 
+		  	  <TextView 
+			    android:id="@+id/describe" 
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="位置:null"
+		        android:layout_below="@+id/precision"
+		        />
+	  	  </LinearLayout>
+	  	   <LinearLayout 
+		      android:layout_width="match_parent"
+    		  android:layout_height="wrap_content"
+    		  android:orientation="vertical"
+	          android:layout_below="@+id/sure_num_satellite"
+	          android:layout_toRightOf="@+id/msg">
+		  	  <ImageButton 
+		          android:id="@+id/share_button"
+		          android:layout_height="wrap_content"
+		          android:layout_width="wrap_content"
+		          android:src="@drawable/share"
+		          android:layout_gravity="right"
+		          android:layout_toRightOf="@+id/msg"/>
+	  	  </LinearLayout>
+	  </RelativeLayout>
+	  
+	  <TableLayout 
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:id="@+id/locationmsg">
+	  	   <TableRow>
+	  	       <Button
+			      android:id="@+id/new_point_button"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_weight="1"
+			      android:drawableTop="@drawable/qizhi_hong_64"
+			      android:background="@drawable/shape"
+			      android:layout_margin="10dp"
+			      android:text="记录点" />
+			  <Button
+			      android:id="@+id/new_line_button"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_weight="1"
+			      android:drawableTop="@drawable/ditu2_64"
+			      android:background="@drawable/shape"
+			      android:layout_margin="10dp"
+			      android:text="记录线" />
+			  <Button
+			      android:id="@+id/map_button"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_weight="1"
+			      android:drawableTop="@drawable/ditu_64"
+			      android:background="@drawable/shape"
+			      android:layout_margin="10dp"
+			      android:text="地图" />
+			  
+	  	   </TableRow>
+		  <TableRow>
+		      <Button
+			      android:id="@+id/north_button"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_weight="1"
+			      android:drawableTop="@drawable/north_64"
+			      android:background="@drawable/shape"
+			      android:layout_margin="10dp"
+			      android:text="指南针" />
+			  <Button
+			      android:id="@+id/speed_button"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_weight="1"
+			      android:drawableTop="@drawable/speed_64"
+			      android:background="@drawable/shape"
+			      android:layout_margin="10dp"
+			      android:text="测速" />
+			  <Button
+			      android:id="@+id/set_button"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_weight="1"
+			      android:drawableTop="@drawable/set_64"
+			      android:background="@drawable/shape"
+			      android:layout_margin="10dp"
+			      android:text="帮助" />
+		  </TableRow>
+		  
+	  </TableLayout>
+
+</LinearLayout>

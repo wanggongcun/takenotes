@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数字填图</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_wgc__takephoto">数字填图</string>
+    <string name="title_activity_wgc_takephoto">数字填图</string>
+    <string name="title_activity_wgc__map">数字填图</string>
+    <string name="title_activity_wgc__north">数字填图</string>
+    <string name="title_activity_wgc__speed">数字填图</string>
+
+</resources>

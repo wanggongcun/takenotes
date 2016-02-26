@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:2:1-97:12
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:12:5-58:19
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:14:9-38
+	android:theme
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.takenotes.MainActivity
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:18:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.takenotes.Wgc_Takephoto
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:26:9-29:20
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:28:13-66
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:27:13-63
+activity#com.example.takenotes.WgcTakephoto
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:30:9-33:20
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:32:13-65
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:31:13-62
+service#com.baidu.location.f
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:35:9-39:19
+	android:process
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:38:13-38
+	android:enabled
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:37:13-35
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:36:13-48
+activity#com.example.takenotes.Wgc_Map
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:41:9-44:20
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:42:13-57
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:46:9-48:56
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:47:13-52
+	android:value
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:48:13-53
+activity#com.example.takenotes.Wgc_North
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:52:13-62
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:51:13-59
+activity#com.example.takenotes.Wgc_Speed
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:54:9-57:20
+	android:label
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:56:13-62
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:55:13-59
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:60:5-61:18
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:60:17-73
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:62:2-63
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:62:19-61
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:63:5-71
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:63:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:64:5-74
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:64:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:65:5-74
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:65:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:66:5-80
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:66:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:67:5-85
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:67:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:68:5-75
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:68:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:69:5-73
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:69:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:70:5-71:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:70:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:72:5-73:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:72:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:74:5-75:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:74:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:76:5-77:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:76:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:78:5-79:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:78:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:80:5-81:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:80:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:82:5-83:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:82:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:84:5-85:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:84:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:86:5-87:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:86:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:88:5-89:23
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:88:22-65
+uses-permission#android.permission.CAMERA
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:90:5-65
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:90:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:92:5-60
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:92:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:93:5-95:36
+	android:required
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:95:9-33
+	android:name
+		ADDED from E:\AndroidStudioProjects\takenotes2\app\src\main\AndroidManifest.xml:94:9-57

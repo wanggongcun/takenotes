@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33AAFF"
+    tools:context="${packageName}.${activityClass}" >
+
+       <LinearLayout 
+		    android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        android:gravity="center|center_horizontal"
+	        android:orientation="vertical">
+           
+           <RelativeLayout 
+                android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_margin="10dp">
+               
+		      <ImageView 
+		          android:id="@+id/north_d"
+		          android:layout_height="wrap_content"
+		          android:layout_width="wrap_content"
+		          android:src="@drawable/north"
+		          />
+		      <ImageView 
+		          android:id="@+id/north"
+		          android:layout_height="wrap_content"
+		          android:layout_width="wrap_content"
+		          android:src="@drawable/zhizhen_256"
+		          />
+           </RelativeLayout>
+           <TextView 
+			    android:id="@+id/position" 
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp"
+		        android:textSize="20dp"
+		        android:text="方位:"
+		        />
+       </LinearLayout>
+       
+
+</RelativeLayout>

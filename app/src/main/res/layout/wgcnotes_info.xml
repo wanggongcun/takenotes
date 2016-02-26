@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView 
+          android:id="@+id/connection"
+          android:layout_height="match_parent"
+          android:layout_width="wrap_content"
+          android:src="@drawable/qizhi_hong_64"
+          android:layout_below="@+id/sure_num_satellite"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:text=">" />
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="match_parent">
+       
+        <TextView
+        android:id="@+id/location_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:textSize="20dp"
+        android:text="地点" />
+       <LinearLayout 
+           android:id="@+id/llh"
+	       android:layout_below="@+id/location_describe"
+	       android:layout_width="match_parent"
+    	   android:layout_height="wrap_content"
+           android:layout_marginLeft="20dip"
+    	   android:orientation="horizontal">
+           <TextView
+	        android:id="@+id/latitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="纬度" />
+	      
+	      <TextView
+	        android:id="@+id/longitude"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="经度" />
+	      <TextView
+	        android:id="@+id/height"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="海拔" />
+       </LinearLayout>
+      
+      
+       <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llh"
+        android:layout_marginLeft="20dip"
+        android:text="时间" />
+        <TextView
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_marginLeft="20dip"
+        android:text="描述" />
+    </RelativeLayout>
+    
+
+</LinearLayout>

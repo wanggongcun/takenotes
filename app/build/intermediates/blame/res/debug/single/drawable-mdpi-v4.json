@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\shape_map.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\drawable-mdpi\\shape_map.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\shape.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\drawable-mdpi\\shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.png",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

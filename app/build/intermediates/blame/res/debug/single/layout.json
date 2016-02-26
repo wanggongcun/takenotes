@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgcnotes.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgcnotes.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_newgrid.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\dlg_newgrid.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_note.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\dlg_note.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgc_map.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgc_map.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgc_north.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgc_north.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgc_takephoto.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgc_takephoto.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\poipop.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\poipop.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgcnotes_info.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgcnotes_info.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgclines.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgclines.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgc_speed.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgc_speed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgcmain.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgcmain.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dlg_line.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\dlg_line.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\takenotes2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wgclines_info.xml",
+        "source": "E:\\AndroidStudioProjects\\takenotes2\\app\\src\\main\\res\\layout\\wgclines_info.xml"
+    }
+]

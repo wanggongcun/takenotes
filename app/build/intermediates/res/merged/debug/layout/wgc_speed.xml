@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33AAFF"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+          <TextView 
+		    android:id="@+id/sure_num_satellite" 
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="已校准卫星:-1"
+	        />
+           <TextView 
+		    android:id="@+id/relation" 
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="方向:-1"
+	        />
+          <RelativeLayout 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_margin="10dp">
+              
+	      <ImageView 
+	          android:id="@+id/speed_d"
+	          android:layout_height="wrap_content"
+	          android:layout_width="wrap_content"
+	          android:src="@drawable/sudu_256"
+	          />
+	      <ImageView 
+	          android:id="@+id/speed"
+	          android:layout_height="wrap_content"
+	          android:layout_width="wrap_content"
+	          android:src="@drawable/speed_zhizhen_256"
+	          />
+          </RelativeLayout>
+          <TextView 
+		    android:id="@+id/position" 
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dp"
+	        android:textSize="20dp"
+	        android:text="速度:"
+	        />
+      </LinearLayout>
+
+</RelativeLayout>

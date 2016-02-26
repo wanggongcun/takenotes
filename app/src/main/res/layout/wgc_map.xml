@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+     <com.baidu.mapapi.map.MapView  
+	    android:id="@+id/bmapView"  
+	    android:layout_width="match_parent"  
+	    android:layout_height="match_parent"  
+	    android:clickable="true"
+	    />
+     
+     <TextView 
+         android:id="@+id/relation"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="方位"/>
+     <LinearLayout 
+          android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+    	  android:orientation="vertical"
+	      android:layout_below="@+id/relation"
+         >
+          <ImageButton 
+          android:id="@+id/tuceng"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_gravity="right"
+	      android:src="@drawable/tuceng_32"
+         />
+     </LinearLayout>
+    
+     <LinearLayout 
+        android:id="@+id/line_control"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal" >
+    
+	  
+	  <Button
+	      android:id="@+id/line_begin"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:drawableTop="@drawable/kaishi_64"
+	      android:background="@drawable/shape_map"
+	      android:layout_margin="5dp"
+	      android:text="开始" 
+	      />
+	  <Button
+	      android:id="@+id/line_mark"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:drawableTop="@drawable/poi_64"
+	      android:background="@drawable/shape_map"
+	      android:layout_margin="5dp"
+	      android:text="记录" />
+	  <Button
+	      android:id="@+id/line_end"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:drawableTop="@drawable/jieshu_64"
+	      android:background="@drawable/shape_map"
+	      android:layout_margin="5dp"
+	      android:text="结束" />
+	 
+
+</LinearLayout>
+
+</RelativeLayout>

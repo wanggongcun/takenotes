@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3399FF"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:background="@drawable/shape_map"
+	    android:layout_margin="5dp"
+        android:text="查看图片"
+        />
+    <Button 
+        android:id="@+id/tomap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:background="@drawable/shape_map"
+	    android:layout_margin="5dp"
+        android:text="查看地图"
+        />
+    <Button 
+        android:id="@+id/delete_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:background="@drawable/shape_map"
+	    android:layout_margin="5dp"
+        android:text="删除"
+        />
+    <Button 
+        android:id="@+id/delete_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:background="@drawable/shape_map"
+	    android:layout_margin="5dp"
+        android:text="删除全部"
+        />
+    <Button 
+        android:id="@+id/cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_map"
+        android:layout_margin="5dp"
+        android:text="取消"
+        />
+
+</LinearLayout>

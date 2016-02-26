@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/shape"
+    >
+
+    <TextView
+        android:id="@+id/poinote"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="Test"
+        android:textColor="@android:color/black" />
+     <TextView
+        android:id="@+id/poinote2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Test"
+        android:textColor="@android:color/black" />
+     <ImageView android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:maxWidth="150dip"
+        android:maxHeight="150dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shui_640_960"
+    tools:context="${packageName}.${activityClass}" >
+	<LinearLayout 
+	  	android:id="@+id/btn1"
+	    android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:background="#99FFFFFF"
+    	android:layout_margin="5dp"
+        >
+	  	<TextView 
+        android:id="@+id/tvlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="位置" />
+    
+   	 <EditText 
+        android:id="@+id/etlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="位置" />
+	 </LinearLayout>
+	 <LinearLayout 
+	  	android:id="@+id/btn2"
+	    android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+	    android:layout_below="@+id/btn1"
+   		android:background="#99FFFFFF"
+    	android:layout_margin="5dp"
+        >
+	  	<TextView 
+        android:id="@+id/tvwhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经纬度" />
+    
+    	<EditText 
+        android:id="@+id/etwhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经纬度" />
+	 </LinearLayout>
+	 <LinearLayout 
+	  	android:id="@+id/btn3"
+	    android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+	    android:layout_below="@+id/btn2"
+   		android:background="#99FFFFFF"
+    	android:layout_margin="5dp"
+        >
+	  	<TextView 
+        android:id="@+id/tvmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="描述" />
+    
+    	<EditText 
+        android:id="@+id/etmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:maxLength="64"
+        android:text="" />
+	 </LinearLayout>
+    
+    
+    <LinearLayout 
+	  	android:id="@+id/btn4"
+	    android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+	    android:layout_below="@+id/btn3"
+        >
+	  	<Button android:id="@+id/btnPhone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+       		android:layout_margin="10dp"
+			android:drawableLeft="@drawable/xiangce_64"
+			android:background="@drawable/shape"
+	        android:text="相册" />
+	    <Button android:id="@+id/btnTakePicture"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_toRightOf="@+id/btnPhone"
+	        android:layout_weight="1"
+        	android:layout_margin="10dp"
+			android:drawableLeft="@drawable/zhaoxiang_64"
+			android:background="@drawable/shape"
+	        android:text="拍照" /> 
+	 </LinearLayout>
+    <ImageView android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:maxHeight="150dp"
+        android:layout_below="@+id/btn4"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     <LinearLayout 
+	      android:layout_width="match_parent"
+   		  android:layout_height="wrap_content"
+   		  android:orientation="horizontal"
+	      android:layout_alignParentBottom="true"
+          >
+	  	  <Button android:id="@+id/btnok"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+        	android:layout_margin="10dp"
+			android:drawableLeft="@drawable/save_64"
+			android:background="@drawable/shape"
+	        android:text="保存" />
+	    <Button android:id="@+id/btncancle"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_toRightOf="@+id/btnok"
+	        android:layout_weight="1"
+        	android:layout_margin="10dp"
+	        android:drawableLeft="@drawable/cancle_64"
+	        android:background="@drawable/shape"
+	        android:text="取消" /> 
+	 </LinearLayout>
+   
+</RelativeLayout>
